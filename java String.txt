@@ -1,0 +1,26 @@
+string 内嵌的常用方法
+1.equals（） equalsIgnoreCase（） 比较字符串的每一个元素的值而非内存存储地址，==比较的是地址
+2.string+string 字符串连接
+3.charAt（） 根据索引值遍历
+4.indexOf（ch） 遍历字符串并返回字符ch第一次出现的索引值
+5.indexOf（str） 遍历字符串并返回字符串str第一次出现的索引值
+6.lastIndexOf（ch /str） 与indexOf搜索的目的相悖，是字符或者字符串最后一次出现的索引值
+7.substring（）     两种参数格式 [0，index) 或者 [startIndex,endIndex)
+8.trim() 拷贝字符串并剔除其中空格，存储在一个新的字符串
+
+
+stringbuilder的常用方法
+deleteCharAt（） 删除指定索引的char
+indexOf() 返回首次出现子字符串出现的位置
+capacity（） 返回容量
+charAt（）
+toString 返回序列数据的string格式
+
+运算符 
+算术运算 byte short int long float double boolean char 做运算
+和位运算 0和1所运算 
+& 0 | 1  ^ not equal 1  ~ flip  << *   >> /   >>>移位后补零
+逻辑运算符 true和false做运算
+&& &   || |   ！ ^逻辑不同为真
+关系运算符 比较大小 返回逻辑值true或false
+一个比较语句 a>b ? a:b 真a假b
