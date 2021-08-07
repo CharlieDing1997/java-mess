@@ -6,7 +6,7 @@ string 内嵌的常用方法
 5.indexOf（str） 遍历字符串并返回字符串str第一次出现的索引值
 6.lastIndexOf（ch /str） 与indexOf搜索的目的相悖，是字符或者字符串最后一次出现的索引值
 7.substring（）     两种参数格式 [0，index) 或者 [startIndex,endIndex)
-8.trim() 拷贝字符串并剔除其中空格，存储在一个新的字符串
+8.trim() 拷贝字符串并剔除其中shou wei de空格，存储在一个新的字符串
 
 
 stringbuilder的常用方法
