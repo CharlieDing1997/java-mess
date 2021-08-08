@@ -15,7 +15,14 @@ indexOf() 返回首次出现子字符串出现的位置
 capacity（） 返回容量
 charAt（）
 toString 返回序列数据的string格式
-
+insert(int offsetm,Object obj)	StringBuilder	在 offsetm 的位置插入字符串 obj
+append(Object obj)	StringBuilder	在字符串末尾追加字符串 obj
+length()	int	确定 StringBuilder 对象的长度
+setCharAt(int index,char ch)	void	使用 ch 指定的新值设置 index 指定的位置上的字符
+toString()	String	转换为字符串形式
+reverse()	StringBuilder	反转字符串
+delete(int start, int end)	StringBuilder	删除调用对象中从 start 位置开始直到 end 指定的索引（end-1）位置的字符序列
+replace(int start, int end, String str)	StringBuilder	使用一组字符替换另一组字符。将用替换字符串从 start 指定的位置开始替换，直到 end 指定的位置结束
 运算符 
 算术运算 byte short int long float double boolean char 做运算
 和位运算 0和1所运算 
